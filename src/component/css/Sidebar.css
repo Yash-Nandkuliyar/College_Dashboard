@@ -1,0 +1,58 @@
+.sidebar{
+    height: 100%!important;
+    background-color: black;
+}
+/* 
+.logo{
+    border-radius: 20px;
+} */
+
+.sidebar .sidebar-top{
+    background-color: gray;
+    height: 190px;
+    padding-top: 15px;
+}
+
+.sidebar .sidebar-top img{
+   display: block;
+   border-radius: 10px;
+   margin: auto;
+}
+
+.sidebar-bottom{
+    height: auto !important;
+    padding-top: 15px;
+}
+
+.sidebar-bottom nav .nav{
+    display: block;
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 10px;
+    animation: raj 300ms ease-in-out forwards;
+    transform-origin: center;
+}
+
+@keyframes raj {
+    0%{
+        transform: scaleY(0);
+    }
+    80%{
+        transform: scaleY(1.1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+
+
+}
+
+.title{
+    color: red;
+}
+
+#submenu{
+    display: none;
+}
